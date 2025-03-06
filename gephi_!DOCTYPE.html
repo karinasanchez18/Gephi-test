@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gephi Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
+</head>
+<body>
+    <div id="graph-container" style="width: 100%; height: 600px;"></div>
+    <script>
+        sigma.parsers.gexf('https://raw.githubusercontent.com/karinasanchez18/Gephi-test/refs/heads/main/Untitled.gexf', {
+            container: 'graph-container'
+        });
+    </script>
+</body>
+</html>
+
